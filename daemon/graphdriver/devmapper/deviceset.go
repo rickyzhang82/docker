@@ -26,7 +26,7 @@ import (
 
 var (
 	DefaultDataLoopbackSize     int64  = 1000 * 1024 * 1024 * 1024
-	DefaultMetaDataLoopbackSize int64  = 20 * 1024 * 1024 * 1024
+	DefaultMetaDataLoopbackSize int64  = 15 * 1024 * 1024 * 1024
 	DefaultBaseFsSize           uint64 = 100 * 1024 * 1024 * 1024
 )
 
