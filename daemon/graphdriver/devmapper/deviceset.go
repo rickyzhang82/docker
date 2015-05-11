@@ -27,9 +27,9 @@ import (
 )
 
 var (
-	DefaultDataLoopbackSize     int64  = 100 * 1024 * 1024 * 1024
-	DefaultMetaDataLoopbackSize int64  = 2 * 1024 * 1024 * 1024
-	DefaultBaseFsSize           uint64 = 10 * 1024 * 1024 * 1024
+	DefaultDataLoopbackSize     int64  = 1000 * 1024 * 1024 * 1024
+	DefaultMetaDataLoopbackSize int64  = 15 * 1024 * 1024 * 1024
+	DefaultBaseFsSize           uint64 = 100 * 1024 * 1024 * 1024
 	DefaultThinpBlockSize       uint32 = 128 // 64K = 128 512b sectors
 	DefaultUdevSyncOverride     bool   = false
 	MaxDeviceId                 int    = 0xffffff // 24 bit, pool limit
